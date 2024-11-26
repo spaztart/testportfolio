@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/themes/Default-theme.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/intro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,200;0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+
+    <title>Bonafide UI - Your friendly UI Resources</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+    <script src="https://unpkg.com/htmx.org@1.9.11"
+        integrity="sha384-0gxUXCCR8yv9FM2b+U3FDbsKthCI66oH5IA9fHppQq9DDMHuMauqq1ZHBpJxQ0J0"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header-nav hx-trigger="load"></header-nav>
+
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <sidebar-nav hx-trigger="load"></sidebar-nav>
+        </div>
+        <main>
+            <div class="content">
+                <div class="workbanner">
+                    <div class="bannerText">
+                        <h2>Building UI Components</h2><br>
+                        <p>Meet our typeface, Cabinet Grotesk - a versatile typeface that empowers the brand to
+                            communicate with authority and grace</p>
+                    </div>
+                    <img src="assets/banner-about.png" alt="banner" width="264px" height="264px">
+                </div>
+                <div class="blogcontainer">
+
+                    <h2>Introduction</h2>
+                    This is a secondary page preview. As evident, content is displayed on this type of page.
+
+                    <h3>Introduction to React</h3>
+                    <p>Ever heard of the saying, "The world is your canvas; you just need the right paint?" Well, in the
+                        world of web development, React is that vibrant paint that artists - or in this case, developers
+                        -
+                        are reaching out for. But why?</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    </div>
+    <script src="scripts/dropdown.js"></script>
+    <script src="Components/header.js"></script>
+    <script src="Components/sidebar.js"></script>
+    <script src="scripts/loading.js"></script>
+
+</html>

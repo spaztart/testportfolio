@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/*Font */
+
+:root {
+/* Basic color scheme */
+
+    --bgheader: #ffffffe9;
+    --bgprimary-color: #fff;
+    --bgsecondary-color: #f7f6ff;
+    --bgtertiary-color: #b6bfff;
+    --bgbanner-color: #EEF5FF;
+    --bgradientradial: #DFE8FF;
+    --text-color: #19191a;
+    --text-color2: #222;
+    --border-color: #dddbf4;
+
+    --Disabled: #949494;
+    --PrimaryColor: #000000;
+    --SecondaryColor: #1e00ff;
+    --ActiveColor: #212a58;
+
+    --SecondaryActiveColor: #ded6f4;
+    --DisabledSecondary: #D9D9D9;
+
+    --ScrollThumb: #cbcbcb;
+    --Scrollradius:8px;
+
+    --selectioIndicator: #141314;
+
+/* Basic color scheme */
+
+    
+
+
+
+
+/* Images and visuals*/
+
+    --promo-image-intro: url('../assets/default-promo.png');
+    --hero-image:url('../assets/welcome2.png');
+    --logoPrimaryColor: #ff2424;
+    --logoSecondaryColor: #1e00ff;
+
+/* Images and visuals*/
+
+
+
+/* Universal Type */
+
+    --DefaultFont: "Inter", sans-serif;
+    --DefaultFontColor:#19191a;
+    --logoFontColor:#fff;
+    --h1-size:2.25rem;
+    --h1-weight:normal;
+    --h1-letterspacing:normal;
+    --h1-color:#000;
+
+    --h2-size:2rem;
+    --h2-weight:normal;
+    --h2-letterspacing:normal;
+    --h2-color:#000;
+
+    --h3-size:1.125rem;
+    --h3-weight:bold;
+    --h3-letterspacing:normal;
+    --h3-color:#000;
+
+    --p-size:1rem;
+    --p-weight:normal;
+    --p-letterspacing:normal;
+    --p-color:#19191a;
+
+    --p2-size:0.8rem;
+    --p2-weight:normal;
+    --p2-letterspacing:normal;
+    --p2-color:#000;
+
+/* Universal Type */
+
+
+/* Button  */
+    --button-fill-color:none;
+    --button-padding: 12px 20px;
+    --button-border-radius: 8px;
+    --button-border-size: 2px;
+    --button-border-color: #0057Ff;
+
+
+    --ctatext-size:1rem;
+    --ctatext-weight:normal;
+    --ctatext-letterspacing:normal;
+    --ctatext-color:#ffffff;
+/* Button  */
+
+/* Dropdown  */
+
+    --dropdown-fill-color:#f6f3ff;
+    --dropdown-border-radius: 2rem;
+    --dropdown-border-size: 1px;
+    --dropdown-border-color: #0057Ff;
+    --dropdown-text-color: #4f3fff;
+    --dropdown-fill-hover:#ebe3ff;
+    --dropdown-text-hover:#4f3fff;
+
+/* Dropdown  */
+
+
+
+
+
+/*Theme Tags */
+
+    --tag-padding: .5rem 1rem;
+    --tag-border-radius: 8px;
+    --tag-border-size: 2px;
+    --tag-border-color: #3c00ff;
+
+    --tagText-size:1rem;
+    --tagText-weight:normal;
+    --tagText-letterspacing:normal;
+    --tagText-color:#3c00ff;
+
+    --tag-fill-hover: #3c00ff;
+    --tag-text-hover:#fff;
+
+/*Theme Tags */
+
+
+
+/* Navigation  */
+
+    --navItem: #554b67;
+    --navHover: #e9e7ff;
+    --navHoverText:#000;
+    --navActive: #212a58;
+    --navBackground: #fbf9ff;
+    --navBorder: #dddbf4;
+    --navCorners:4px;
+    --navItemAnimate: fade-in-bg 0.25s ease;
+
+    --navCategoryText-size: 0.7rem;
+    --navCategoryText-type: "Inter", sans-serif;
+    --navCategoryText-weight: normal;
+    --navCategoryText-letterspacing: normal;
+    --navCategoryText-transform: uppercase;
+    --navCategoryText-color: #938abb;
+
+    --navItemText-size: 1rem;
+    --navItemText-type: "Inter", sans-serif;
+    --navItemText-weight: normal;
+    --navItemText-letterspacing: normal;
+    --navItemText-transform: uppercase;
+    --navItemText-color: #343434;
+
+
+    --socialFooterBg: #ebeeff;
+    --socialFooterBorder: #000;
+    --socialFooterBorderSize: 0px;
+    --socialIcon: #8b91fb;
+    --socialHoverIcon: #e3e9ff;
+
+/* Navigation  */
+
+
+
+/* Main Hero Section  */
+    --IntroNameText-size: 2rem;
+    --IntroNameText-type: "Inter", sans-serif;
+    --IntroNameText-weight: normal;
+    --IntroNameText-letterspacing: normal;
+    --IntroNameText-transform: none;
+    --IntroNameText-color: #000000;
+
+
+    --hdisplay1-type: "Inter", sans-serif;
+    --hdisplay1-weight: 800;
+    --hdisplay1-letterspacing: normal;
+    --hdisplay1-transform: uppercase;
+    --hdisplay1-color: #5900ff;
+    --hdisplay1-bg: linear-gradient(90deg, #4200FF 0%, #D600E8 100%);
+    --hdisplay1-size: clamp(4rem, -2.25rem + 10.417vw, 9rem);
+    --hdisplay1-lineheight: clamp(4rem, -2.25rem + 10.417vw, 9rem);
+
+
+    --hdisplay2-type: "Inter", sans-serif;
+    --hdisplay2-weight: normal;
+    --hdisplay2-letterspacing: 12px;
+    --hdisplay2-transform: uppercase;
+    --hdisplay2-color: #000000;
+    --hdisplay2-font-size:clamp(2.75rem, -4.125rem + 11.458vw, 8.25rem);
+    --hdisplay2-line-height:clamp(2.75rem, -4.125rem + 11.458vw, 8.25rem);
+
+    --hdisplaysub-size: clamp(1rem, 7vw, 1.25rem);
+    --hdisplaysub-type: "Inter", sans-serif;
+    --hdisplaysub-weight: normal;
+    --hdisplaysub-letterspacing: normal;
+    --hdisplaysub-transform: uppercase;
+    --hdisplaysub-color: #5900ff;
+
+    --hero-backgroundcolor: #e2e6ff;
+    --hero-background: radial-gradient(36.98% 43.08% at 86.79% 31.98%, #FFEEF6 21%, rgba(255, 255, 255, 0.00) 100%), radial-gradient(47.51% 35.33% at 60.64% 50.06%, #E2FFF6 11.06%, rgba(255, 255, 255, 0.00) 100%), var(--Text, #FFF);
+
+/* Main Hero Section  */
+
+/* Animation */
+    --animation-type:fade;
+
+
+
+}

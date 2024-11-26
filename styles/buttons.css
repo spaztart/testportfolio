@@ -1,0 +1,63 @@
+.btn {
+    display: inline-block;
+    font-family: var(--DefaultFont);
+    color: var(--ctatext-color);
+    letter-spacing:var(--ctatext-letterspacing);
+    font-weight:var(--ctatext-weight);
+    font-size: var(--ctatext-size);
+    text-align: center;
+    text-decoration: none;  
+
+    padding: var(--button-padding);
+    border: var(--button-border-size) solid var(--button-border-color);
+    border-radius: var(--buttonborder-radius);
+    background-color:var(--button-fill-color);
+
+    transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.btn:hover {
+    background-color: var(--PrimaryColor);
+    /* Green background color */
+    color: var(--bgprimary-color);
+
+
+    /* White text color */
+}
+
+.btn:active {
+    background-color: var(--ActiveColor);
+    /* Green background color */
+    color: var(--bgprimary-color);
+    /* White text color */
+}
+
+
+
+.themetags {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.themetags a {
+    display: flex;
+    padding: var(--tag-padding);
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    border-radius: var(--tag-border-radius);
+    border: var(--tag-border-size) solid var(--tag-border-color);
+    text-decoration: none;
+    font-family: var(--Default-font);
+    color: var(--tagText-color);
+    font-size: var(--tagText-size);
+}
+
+.themetags a:hover {
+    background-color: var(--tag-fill-hover);
+    color: var(--tag-text-hover);
+
+}

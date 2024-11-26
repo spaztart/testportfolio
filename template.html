@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Product design portfolio space full of UI wonders and a usability haven.">
+
+    <link rel="stylesheet" href="styles/themes/Default-theme.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/intro.css">
+    <link rel="stylesheet" href="styles/buttons.css">
+    <link rel="stylesheet" href="styles/scrollbar.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>JC - Greatest themeable site you have ever seen</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+    <script src="https://unpkg.com/htmx.org@1.9.11"
+        integrity="sha384-0gxUXCCR8yv9FM2b+U3FDbsKthCI66oH5IA9fHppQq9DDMHuMauqq1ZHBpJxQ0J0"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header-nav></header-nav>
+
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <sidebar-nav></sidebar-nav>
+        </div>
+
+        <main>
+            <div class="topSection">
+               <div class="topContainer">
+                <h1><span>Assemble <br>Design Systems</span><br> @ McAfee</h1>
+                <div class="infoTagsContainer">
+                    <div class="infoTags">Client: <strong>McAfee</strong></div>
+                    <div class="infoTags">Role:  <strong>Lead Design</strong></div>
+                    <div class="infoTags">Project:  <strong>Design System</strong></div>
+                </div>
+                <h3>Discover a destination like a local insider and plan the perfect trip with your personalized, always up-to-date travel guide.</h3>
+               </div>
+            </div>
+
+           
+            <article>
+                <img src="https://images.unsplash.com/photo-1718294330460-7f6355d3895a?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sample Image" class="responsive-image">
+
+                <h2>A Bit of History:</h2>
+                <p>
+                  McAfee is a global leader in online protection, serving over 100 million devices worldwide. 
+                  In 2020, McAfee underwent rapid organizational changes, with shifts in leadership and evolving company objectives. 
+                  Teams across marketing, design, and engineering worked in silos, pushing products out quickly to meet tight deadlines.
+                </p>
+                <p>This led to visual inconsistencies in our products and varying UX patterns. A few key issues emerged:</p>
+                <ul>
+                  <li>Different developer frameworks were used across various products.</li>
+                  <li>Designers and developers weren’t given enough time to research and test UI components to ensure they fit our products.</li>
+                  <li>Designers often overrode components with their own styles to match their vision for the products.</li>
+                  <li>Documentation and guidelines were lacking.</li>
+                </ul>
+                <p>
+                  Given the state of the current design processes, we had to address these challenges by building a design system 
+                  that could bring scalability, efficiency, and brand consistency for McAfee’s products. So how did we accomplish this?
+                </p>
+              
+                <h3>New Beginnings:</h3>
+                <p>
+                  I joined the design system team in 2021 to take part in leading the design efforts. 
+                  As a result, I came up with a phased approach:
+                </p>
+                <h4>Gain Understanding:</h4>
+                <p>
+                  I started by meeting with the desktop, mobile, brand, and marketing teams. From here, I analyzed the prime UI libraries 
+                  they use for components, icons, and visual foundations. I also learned about the front-end frameworks engineers use. 
+                  This helped me define goals and determine success metrics.
+                </p>
+                <h4>Audit Process:</h4>
+                <p>
+                  Collaborating with other design teams, I started auditing typefaces, colors, and UI components throughout their design flows, 
+                  identifying commonly used UI components, and coming up with a solidified library for McAfee's main base components.
+                </p>
+                <h4>Design, Build and Test:</h4>
+                <p>
+                  From scratch, I have created UI components in Figma. For instance, I have built UI specifications, compared new and old components, 
+                  and utilized Figma’s latest component features to make them intuitive for design flows. I have also tested these components 
+                  on various McAfee projects to make sure they are responsive, accessible, and purposeful.
+                </p>
+                <p>
+                  I was making progress in solidifying a new intuitive UI library. I introduced the new libraries to designers, 
+                  and they immediately started utilizing them for their design flows. However, there were some massive storms that occurred.
+                </p>
+              
+                <h3>Build a Plane While It’s Flying 24/7:</h3>
+                <p>
+                  We work in an organization that takes the “agility and flexibility” approach, making decisions on the fly. 
+                  And by no means, I am not knocking this style of work. However, I believe there is always a “ying and yang” 
+                  of how we approach processes. Thus, rapidly creating a design system for various teams working on different products 
+                  and developing new features was tough. This fast pace often meant that there wasn't enough time to adopt the best design processes.
+                </p>
+                <h4>Time Constraints:</h4>
+                <p>
+                  The rapid release of product features created multiple parallel projects for designers and engineers, 
+                  making it challenging to balance workloads while building a design system.
+                </p>
+                <h4>Adoption:</h4>
+                <p>
+                  Some engineering teams resisted adopting the new design system due to bandwidth constraints.
+                </p>
+                <h4>Leaked UI Libraries:</h4>
+                <p>
+                  Designers began using new UI components in the design process, leading to a mix of old and new components being used. 
+                  This influenced engineers to build their own UI for these components.
+                </p>
+                <h4>Technical Challenges:</h4>
+                <p>
+                  Integrating the design system into existing workflows and technologies required careful planning to ensure compatibility 
+                  with different platforms, frameworks, and tools used by various teams.
+                </p>
+                <h4>Lack of Governance:</h4>
+                <p>
+                  Designers would bring us stakeholder-approved UI components to build because their product engineers didn't have time to create them. 
+                  Once the components were built, many were rarely reused by engineers and designers.
+                </p>
+                <p>
+                  These dilemmas became challenging. Developers didn’t have the resources to build new and updated UI components. 
+                  Designers were also working at a rapid pace to meet deadlines, which resulted in the use of new and old UI libraries. 
+                  Despite these failures, this didn’t stop the design system team from pushing forward.
+                </p>
+              
+                <h3>Let’s Take a Step Back:</h3>
+                <p>
+                  Our team took a step back to identify these challenges. We realized that we need to define what needs to be done for the design system. 
+                  Within this work culture, how can we make a successful design system?
+                </p>
+            </article>
+
+
+            <div class="content">
+
+
+                
+                <div class="footer">Crafted with 🧠 & ❤️ by moi</div>
+            </div>
+
+        </main>
+    </div>
+    </div>
+    <script src="scripts/dropdown.js"></script>
+    <script src="Components/header.js"></script>
+    <script src="Components/sidebar.js"></script>
+    <script src="scripts/gsap.min.js"></script>
+
+
+
+</body>
+
+</html>
