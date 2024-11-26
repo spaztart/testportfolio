@@ -26,6 +26,7 @@ const themes = [
     { path: 'styles/themes/Default-theme.css', name: 'Default Theme' },
     { path: 'styles/themes/Dark-theme.css', name: 'Dark Theme' },
     { path: 'styles/themes/cyberwave.css', name: 'Cyberwave' },
+    { path: 'styles/themes/green.css', name: 'Hacker' },
     // Add more themes here
 ];
 
